@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 250px 600px;
-    border: 1px solid  red ;
     grid-template-areas: 
     "a a a a a a a a a a" 
     "b b b b b b b c c c"
@@ -46,4 +45,34 @@ a{
 
 .text{
   font-size: 30px;
+}
+
+#header-jan21{
+  grid-area: a;
+  background-color: forestgreen;
+  color: #ffffff;
+  font-size: 90px;
+  padding-top: 30px;
+}
+#header-feb21{
+  grid-area: a;
+  background-color: lightcoral;
+  color: #ffffff;
+  font-size: 90px;
+  padding-top: 30px;
+}
+#header-mar21{
+  grid-area: a;
+  background-color: indigo;
+  color: #ffffff;
+  font-size: 90px;
+  padding-top: 30px;
+}
+
+@media only screen and (max-width: 320px){
+
+
+
+
+
 }
