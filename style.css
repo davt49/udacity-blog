@@ -4,9 +4,9 @@
     grid-template-rows: 250px 600px;
     border: 1px solid  red ;
     grid-template-areas: 
-    "a a a a a a a a" 
-    "b b b b b b c c"
-    "d d d d d d d d";
+    "a a a a a a a a a a" 
+    "b b b b b b b c c c"
+    "d d d d d d d d d d";
 
   }
 .box{
@@ -16,6 +16,10 @@
 }
 #header{
   grid-area: a;
+  background-color: firebrick;
+  color: #ffffff;
+  font-size: 90px;
+  padding-top: 30px;
 }
 #content{
   grid-area: b;
@@ -25,4 +29,21 @@
 }
 #footer{
   grid-area: d;
+}
+.list-item{
+  font-size: 30px;
+  list-style-type: none;
+  padding: 20px 10px 20px 0;;
+}
+a:hover{
+  color: #ebdb34;
+}
+
+a{
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.text{
+  font-size: 30px;
 }
