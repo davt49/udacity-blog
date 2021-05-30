@@ -1,0 +1,166 @@
+@import 'jan.css';
+@import 'feb.css';
+@import 'mar.css';
+
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 600px;
+    grid-template-areas: 
+    "a a a a a a a a a a" 
+    "b b b b b b b c c c"
+    "d d d d d d d d d d";
+
+  }
+.box{
+  display: flex;
+  border: 1px solid  black;
+  justify-content: center;
+}
+#header{
+  grid-area: a;
+  background-color: firebrick;
+  color: #ffffff;
+  font-size: 90px;
+  padding-top: 30px;
+  font-family: 'Big Shoulders Display', cursive;
+}
+#content{
+  grid-area: b;
+  padding: 0 20px;
+}
+#sidebar{
+  grid-area: c;
+}
+#footer{
+  grid-area: d;
+}
+.list-item{
+  font-size: 30px;
+  list-style-type: none;
+  padding: 20px 10px 20px 0;;
+}
+a:hover{
+  color: #ebdb34;
+}
+
+a{
+  text-decoration: none;
+  color: darkslategray;
+}
+
+.text{
+  font-size: 24px;
+}
+
+.content-img{
+  width: 400px;
+}
+.content-block{
+  padding: 0 10px;
+}
+.icon-fb{
+  font-size:42px; 
+  margin: 10px; 
+  color:CornflowerBlue;
+}
+.icon-gh{
+  font-size:42px;
+  margin: 10px; 
+  color:SlateGrey;
+}
+.icon-env{
+  font-size:42px; 
+  margin: 10px; 
+  color:Gray;
+}
+.button-twitter{
+  background-color: rgb(0, 214, 252);
+  padding: 20px 40px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.button-facebook{
+  background-color: rgb(52, 19, 243);
+  padding: 20px 40px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.button-linkedin{
+  background-color: rgb(150, 160, 252);
+  padding: 20px 40px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.button-twitter:hover{
+  background-color: rgb(6, 165, 177);
+}
+.button-facebook:hover{
+  background-color: rgb(8, 0, 114);
+}
+.button-linkedin:hover{
+  background-color: royalblue;
+}
+
+/* tablet */
+@media only screen and (max-width: 768px){
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 600px;
+    grid-template-areas: 
+    "a a a a a a a a a a" 
+    "b b b b b b b b b b"
+    "c c c c c c c c c c"
+    "d d d d d d d d d d";
+
+  }
+
+  .icon-fb{
+  font-size:82px; 
+  }
+  .icon-gh{
+    font-size:82px;
+  }
+  .icon-env{
+    font-size:82px; 
+  }
+}
+
+/* Mobile */
+@media only screen and (max-width: 320px){
+
+  .container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 250px 1500px;
+    grid-template-areas: 
+    "a a a a a a a a a a" 
+    "b b b b b b b b b b"
+    "c c c c c c c c c c"
+    "e e e e e e e e e e"
+    "d d d d d d d d d d";
+
+  }
+
+  .text{
+    font-size: 40px;
+  }
+
+  .icon-fb{
+  font-size:82px; 
+  }
+  .icon-gh{
+    font-size:82px;
+  }
+  .icon-env{
+    font-size:82px; 
+  }
+
+ 
+ 
+}
+
