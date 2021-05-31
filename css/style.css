@@ -77,14 +77,19 @@ a{
 }
 .button-twitter{
   background-color: rgb(0, 214, 252);
-  padding: 20px 40px;
-  font-size: 30px;
+  padding: 10px 30px;
+  font-size: 50px;
   color: #ffffff;
+   font-family: 'Big Shoulders Display', cursive;
 }
 .button-facebook{
   background-color: rgb(52, 19, 243);
-  padding: 20px 40px;
-  font-size: 30px;
+  padding: 10px 30px;
+  font-size: 50px;
+  color: #ffffff;
+  font-family: 'Big Shoulders Display', cursive;
+}
+.button-facebook a{
   color: #ffffff;
 }
 .button-linkedin{
